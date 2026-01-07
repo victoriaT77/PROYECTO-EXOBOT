@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\VICTORIA\\Downloads\\sqlitejdbcdriver\\sqlite-jdbc-3.51.0.0.jar"
+        ],
+        "exclude": [
+            "lib/sqlite-jdbc-3.51.0.0.jar"
+        ]
+    }
+}
