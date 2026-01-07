@@ -1,3 +1,5 @@
+import javax.swing.SwingUtilities;
+
 import BusinessLogic.Entities.tvEstadoCivilBL;
 import BusinessLogic.Entities.tvPersonaTipoBL;
 import BusinessLogic.Entities.tvSexoBL;
@@ -7,9 +9,15 @@ import DataAccess.tvSexoDAO;
 import DataAccess.DTO.tvEstadoCivilDTO;
 import DataAccess.DTO.tvPersonaTipoDTO;
 import DataAccess.DTO.tvSexoDTO;
+import UserInterface.Form.MainForm;
+import UserInterface.Form.SplashScreenForm;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+         SplashScreenForm.show();
+
+        MainForm mainForm = new MainForm("tvEXABOT - Sistema de Gestion de Examenes Automatizados");
 
         //Testing DAOs
         try {

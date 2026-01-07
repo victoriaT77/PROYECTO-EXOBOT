@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MwnM-Fq-UnrfEZYS3qFX" name="Page-1">
-        <mxGraphModel dx="1404" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1544" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -520,22 +520,34 @@
                 <mxCell id="164" style="edgeStyle=none;html=1;entryX=0.613;entryY=1.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="160" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" value="GUI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="166" value="GUI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="2090" y="60" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" style="edgeStyle=none;html=1;" edge="1" parent="1" source="167">
+                <mxCell id="171" style="edgeStyle=none;html=1;" parent="1" source="167" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2410" y="272.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="167" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.shutterstock.com/image-photo/humanoid-robot-visible-ai-neural-600nw-2576593685.jpg;" vertex="1" parent="1">
+                <mxCell id="167" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.shutterstock.com/image-photo/humanoid-robot-visible-ai-neural-600nw-2576593685.jpg;" parent="1" vertex="1">
                     <mxGeometry x="2090" y="145" width="255" height="255" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="2430" y="30" width="430" height="460" as="geometry"/>
+                <mxCell id="174" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://previews.123rf.com/images/tovovan/tovovan1605/tovovan160500078/56496845-opened-browser-window-template-on-transparent-background-past-your-content-into-it.jpg;clipPath=inset(12.25% 10.67% 12.25% 10.33%);" vertex="1" parent="1">
+                    <mxGeometry x="2450" y="110.00000000000001" width="582.13" height="461.77" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-clipart/20241102/original/pngtree-modern-ai-robot-png-image_16605230.png;" vertex="1" parent="1">
-                    <mxGeometry x="2450" y="80" width="375" height="375" as="geometry"/>
+                <mxCell id="173" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/014/494/807/small/website-buffer-loading-icon-a-bar-showing-the-download-status-of-information-on-the-website-png.png;" vertex="1" parent="1">
+                    <mxGeometry x="2042.5" y="290" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2700" y="190" width="320" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-clipart/20241102/original/pngtree-modern-ai-robot-png-image_16605230.png;" parent="1" vertex="1">
+                    <mxGeometry x="2685" y="202.5" width="335" height="335" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://thumbs.dreamstime.com/b/icono-b%C3%A1sico-del-men%C3%BA-de-la-hamburguesa-del-app-94905847.jpg;" vertex="1" parent="1">
+                    <mxGeometry x="2500" y="215" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="MDI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="3060" y="165" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
