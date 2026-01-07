@@ -1,10 +1,8 @@
 package UserInterface.Form;
 
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JProgressBar;
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
+
 public abstract class SplashScreenForm {
     private static JFrame frmSplash;
     private static JProgressBar prbLoanding;
@@ -12,7 +10,7 @@ public abstract class SplashScreenForm {
     private static JLabel lblSplash;
 
     public static void show() {
-        // Cargar imagen y componentes
+        // Crear imagen y componentes
         icoImagen = new ImageIcon("src/Resource/Images/EXOBOT.jpg");
         lblSplash = new JLabel(icoImagen);
         prbLoanding = new JProgressBar();
@@ -27,10 +25,11 @@ public abstract class SplashScreenForm {
         frmSplash.setSize(icoImagen.getIconWidth(), icoImagen.getIconHeight() + 30);
         frmSplash.setLocationRelativeTo(null);
 
-        // Mostrar ventana antes del bucle
+        // Mostrar ventana ANTES del bucle
         frmSplash.setVisible(true);
         frmSplash.repaint(); // fuerza el pintado inicial
 
+        // Simular carga bloqueante
         for (int i = 0; i <= 100; i++) {
             try {
                 Thread.sleep(50); // Simula tiempo de carga
